@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <title>S&amp;M Calzature — Il numero giusto · scarpe uomo, donna e bambino a Niguarda, Milano</title>
 <meta name="description" content="S&amp;M Calzature, Viale Ca' Granda 2 a Milano (Niguarda): scarpe per uomo, donna e bambino, provate con calma. Tamaris, Primigi, Melluso, Igi&amp;Co, Geox, Lelli Kelly. Lunedì dalle 9:30, martedì–sabato dalle 9:15.">
 <link rel="canonical" href="https://rotenzark.github.io/sm-calzature/">
@@ -17,9 +18,7 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Kalam:wght@400;700&family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
@@ -242,7 +241,7 @@
           <figcaption data-i18n="o.fig">la nostra porta, con le marche sul vetro (foto sferica dalla scheda Google)</figcaption>
         </figure>
         <div class="mappa">
-          <iframe src="https://www.google.com/maps?q=S%26M+Calzature,+Viale+Ca%27+Granda+2,+20162+Milano&amp;z=16&amp;output=embed" title="Mappa: S&amp;M Calzature, Viale Ca' Granda 2, Milano" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen data-i18n-title="o.mappa"></iframe>
+          <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe src="https://www.google.com/maps?q=S%26M+Calzature,+Viale+Ca%27+Granda+2,+20162+Milano&amp;z=16&amp;output=embed" title="Mappa: S&amp;M Calzature, Viale Ca' Granda 2, Milano" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen data-i18n-title="o.mappa"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/search/?api=1&amp;query=S%26M+Calzature+Viale+Ca%27+Granda+2+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
         </div>
       </div>
     </div>
@@ -273,7 +272,7 @@
     <p class="piede__n">S&amp;M Calzature</p>
     <p data-i18n="p.1">Sammataro Massimo &amp; C. S.a.s. · calzature per uomo, donna e bambino · lun 9:30–12:30 e 15:30–19:30 · mar–ven 9:15–12:30 e 15:30–19:30 · sab 9:15–12:30 e 15:30–19 · dom chiuso</p>
     <p>Viale Ca' Granda 2, 20162 Milano · <a href="tel:+39026471580">02 647 1580</a> · <a href="tel:+393473484414">347 3484414</a></p>
-    <p data-i18n="p.3">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · testi e orari dalla scheda Google e dal profilo Instagram dell'attività, recensioni pubbliche su Google (settembre 2026); fotografie dalla scheda Google (foto sferiche e foto del proprietario).</p>
+    <p data-i18n="p.3">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · testi e orari dalla scheda Google e dal profilo Instagram dell'attività, recensioni pubbliche su Google (settembre 2026); fotografie dalla scheda Google (foto sferiche e foto del proprietario).</p>
   </div>
 </footer>
 
@@ -289,5 +288,6 @@
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
